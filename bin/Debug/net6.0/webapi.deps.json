@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.9",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
+          "OpenAI": "1.5.0",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -55,6 +56,14 @@
           "lib/netstandard2.0/Humanizer.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.20.21406"
           }
         }
       },
@@ -251,6 +260,26 @@
           "System.Threading.Timer": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "OpenAI/1.5.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenAI_API.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
         }
       },
       "Pomelo.EntityFrameworkCore.MySql/6.0.2": {
@@ -1041,6 +1070,13 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -1208,6 +1244,20 @@
       "sha512": "sha512-WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "path": "netstandard.library/1.6.1",
       "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "OpenAI/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4KS8Jj9oyn6fbFHX1MnxjDMF9Qaq91X/RDu5p3WnpZFaXNantSAe7R8oC6dIcdpwowWzpQFz9B/WOXg7uRdr5A==",
+      "path": "openai/1.5.0",
+      "hashPath": "openai.1.5.0.nupkg.sha512"
     },
     "Pomelo.EntityFrameworkCore.MySql/6.0.2": {
       "type": "package",

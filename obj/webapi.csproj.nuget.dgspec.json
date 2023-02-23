@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismae\\OneDrive\\Área de Trabalho\\webapi\\webapi.csproj": {}
+    "C:\\dev\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismae\\OneDrive\\Área de Trabalho\\webapi\\webapi.csproj": {
+    "C:\\dev\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismae\\OneDrive\\Área de Trabalho\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\dev\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\ismae\\OneDrive\\Área de Trabalho\\webapi\\webapi.csproj",
+        "projectPath": "C:\\dev\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\ismae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismae\\OneDrive\\Área de Trabalho\\webapi\\obj\\",
+        "outputPath": "C:\\dev\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ismae\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.5.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
